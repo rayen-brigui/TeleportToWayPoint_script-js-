@@ -24,7 +24,7 @@ alt.onServer('tpto', tpToWaypoint);//sending the function to the server side if 
             setTimeout(() => {                                                //this will help out
               game.setPedCoordsKeepVehicle(alt.Player.local, coords.x, coords.y,Gz);  //if textures already loaded then nothing to worry about :)         
 
-          }, 1000); 
+          }, 1500); 
         };
         game.setPedCoordsKeepVehicle(alt.Player.local, coords.x, coords.y,Gz);  //if textures already loaded then nothing to worry about :)         
     }
